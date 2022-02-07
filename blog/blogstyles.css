@@ -1,0 +1,161 @@
+@media (min-width: 999px) and (max-width: 2000px) {
+
+header {
+text-align: center;
+margin-top: 5%;
+margin-bottom: 2%;
+margin-right: auto;
+grid-area: "header";}
+
+header img {
+width: 50%;
+width: 30%;}
+
+h1 {
+text-align: center;
+color: white;
+background-color: #252525;
+width: 30%;
+margin: auto;
+margin-bottom: 3%;
+font-size: 300%;
+}
+
+section {
+    display: grid;
+    border: solid 2pt black;
+    grid-template-columns: 20%, 80%;
+    grid-template-areas: 
+    "picture words";
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1%;
+    
+}
+
+section figure {
+    grid-area: "picture";
+    width: 100%;}
+
+section div {
+    grid-area: "words";
+text-align: center;
+padding: 10%;
+font-size: 110%;
+padding-bottom: 0;}
+
+.button {
+    background-color: #0BA39C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+figure {
+    margin: 0;
+    border-right: solid 2pt black;
+}
+
+footer {display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #252525;
+    color: white;
+grid-area: "footer";}
+    
+    
+footer p {grid-column: 1/2;
+    margin-left: 5%;
+    margin-left: 25%;
+    padding-top: 10%;
+}
+    
+.links {grid-column: 2/3;
+    margin-left: 25%;
+   padding-top: 10%;
+   }
+  
+  } 
+
+@media (max-width: 1000px) 
+{ 
+    .why {grid-area:"why";}
+    .whytext {grid-area:"whytext"}
+    .country {grid-area:"country"}
+    .countrytext {grid-area:"countrytext"}
+    .brothers {grid-area:"brothers"}
+    .brothertext {grid-area:"brothertext"}
+
+    section {border: 2pt solid black;
+    margin: 3%;
+    padding: 0;}
+
+    figure {padding: 0;
+    margin: 0;}
+
+    figure img {width: 100%;}
+
+    h1 {
+        text-align: center;
+        color: white;
+        background-color: #252525;
+        width: 30%;
+        margin: auto;
+        margin-bottom: 3%;
+        font-size: 300%;
+        }
+
+    
+    body {
+        
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "why"
+        "whytext"
+        "country"
+        "countrytext"
+        "brothers"
+        "brothertext"
+        "footer"
+        ;
+        margin:auto;
+        text-align: center;
+    }
+    footer {display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: #252525;
+        color: white;
+    grid-area: "footer";}
+        
+        
+    footer p {grid-column: 1/2;
+        margin-left: 5%;
+        margin-left: 25%;
+        padding-top: 10%;
+    }
+    .links {grid-column: 2/3;
+        margin-left: 25%;
+       padding-top: 10%;
+       display: flex;
+       width: 10%;
+       height: 44px;}
+      
+      
+
+        .button {
+            background-color: #0BA39C;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            margin-bottom: 5%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+          }
+}

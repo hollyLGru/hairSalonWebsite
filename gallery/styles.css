@@ -1,0 +1,45 @@
+header {text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;}
+    
+    
+    header img {
+    width: 50%;
+    width: 30%;}
+    
+    main {text-align: center;}
+
+    h1 
+    {background-color: #252525;
+        color: white;
+        width: 30%;
+        text-align: center;
+        margin: auto;
+        font-size: 200%;
+    margin-bottom: 5%;}
+
+        section {
+        margin-left: auto;
+    text-align: center;}
+
+    section img {margin: .5%;
+    border: 3pt solid #252525;}
+
+        footer {display: grid;
+            grid-template-columns: 50% 50%;
+            background-color: #252525;
+            color: white;
+        margin-top: 10%;}
+            
+            
+        footer p {grid-column: 1/2;
+            margin-left: 5%;
+            margin-left: 25%;
+            padding-top: 10%;}
+            
+            .links {grid-column: 2/3;
+                margin-left: 25%;
+               padding-top: 10%;
+               }
+              
+              
