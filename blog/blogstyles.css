@@ -81,7 +81,7 @@ footer p {grid-column: 1/2;
   
   } 
 
-@media (max-width: 1000px) 
+@media (min-width: 9px) and (max-width: 1000px) 
 { 
     .why {grid-area:"why";}
     .whytext {grid-area:"whytext"}
